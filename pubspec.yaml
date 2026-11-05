@@ -1,0 +1,22 @@
+name: lab_04
+description: Lab 04 - Pizza Store App with named routes, widget tests, and an AI-built Order Summary screen.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.9.0   # needed only because lib/demos/part7_webview.dart imports it
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
